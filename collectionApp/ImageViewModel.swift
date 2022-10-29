@@ -10,12 +10,10 @@ import Foundation
 struct ImageModel {
     
     var image: String = ""
-    var label: String = ""
     
-    init(image: String, label: String){
+    init(image: String){
         
         self.image = image
-        self.label = label
         
     }
 }

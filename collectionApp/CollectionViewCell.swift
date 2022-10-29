@@ -7,9 +7,12 @@
 
 import UIKit
 
+protocol DisplaysDetailCollectionViewCell: UICollectionViewCell {
+    func configure(with viewModel: ImageModel)
+}
+
 class CollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var imageView: UIImageView!
-    @IBOutlet weak var imageLabel: UILabel!
+    @IBOutlet var imageView: UIImageView!
     
 }
