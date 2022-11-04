@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDataSource {
+class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     
     private var images : [ImageModel] = [ImageModel(image: "ice_wasteland.jpeg"),
                                          ImageModel(image: "tundra.jpeg"),
@@ -16,21 +16,23 @@ class ViewController: UIViewController, UICollectionViewDataSource {
                                          ImageModel(image: "tropics.jpeg"),
                                          ImageModel(image: "desert.jpeg")]
     
-    @IBOutlet var collectionView: UICollectionView!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    
+    @IBOutlet var collectionView: UICollectionView!
+    
+
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        
+        return 2
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
         return images.count
-    }
-    
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        
-        return 2
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -43,4 +45,6 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         return cell
         
     }
+    
+    
 }

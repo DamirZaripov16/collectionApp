@@ -16,6 +16,7 @@
 		CE2CAF32290D4624007E122F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2CAF30290D4624007E122F /* LaunchScreen.storyboard */; };
 		CEB585C8290D7F12003167BC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CEB585C7290D7F12003167BC /* .gitignore */; };
 		CEB585CA290D96E6003167BC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB585C9290D96E6003167BC /* CollectionViewCell.swift */; };
+		CEB585CC291534A4003167BC /* CollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB585CB291534A4003167BC /* CollectionViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CE2CAF33290D4624007E122F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEB585C7290D7F12003167BC /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		CEB585C9290D96E6003167BC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CEB585CB291534A4003167BC /* CollectionViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				CE0BC55A290D733D0022C7ED /* ImageViewModel.swift */,
 				CEB585C7290D7F12003167BC /* .gitignore */,
 				CEB585C9290D96E6003167BC /* CollectionViewCell.swift */,
+				CEB585CB291534A4003167BC /* CollectionViewManager.swift */,
 			);
 			path = collectionApp;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				CEB585CA290D96E6003167BC /* CollectionViewCell.swift in Sources */,
 				CE0BC55B290D733D0022C7ED /* ImageViewModel.swift in Sources */,
+				CEB585CC291534A4003167BC /* CollectionViewManager.swift in Sources */,
 				CE2CAF2A290D4621007E122F /* ViewController.swift in Sources */,
 				CE2CAF26290D4621007E122F /* AppDelegate.swift in Sources */,
 				CE2CAF28290D4621007E122F /* SceneDelegate.swift in Sources */,
